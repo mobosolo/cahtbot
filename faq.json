@@ -1,0 +1,64 @@
+{
+  "etablissement": "ESAG-NDE",
+  "faq": [
+    {
+      "categorie": "Admissions et Frais",
+      "questions": [
+        {
+          "keywords": ["frais", "inscription", "coût", "prix", "scolarité", "payer", "argent"],
+          "reponse": "Les frais d'inscription s'élèvent à 50 000 FCFA. Pour le cycle d'expertise comptable (DECOGEF), la scolarité est de 1 000 000 FCFA payable en 8 tranches de 125 000 FCFA. Pour les autres filières, veuillez contacter la scolarité."
+        },
+        {
+          "keywords": ["documents", "pièces", "dossier", "fournir", "inscription", "dépôt"],
+          "reponse": "Le dossier doit comprendre : une copie légalisée de l'acte de naissance, une copie légalisée du diplôme (BAC II ou plus), le relevé de notes, 3 à 4 photos d'identité et une enveloppe timbrée."
+        },
+        {
+          "keywords": ["procédure", "admission", "comment s'inscrire", "entretien", "étude de dossier"],
+          "reponse": "L'admission se fait sur étude de dossier. Pour les cycles DECOGEF/DESCOGEF, un entretien devant une commission pluridisciplinaire d'enseignants est obligatoire après le dépôt."
+        }
+      ]
+    },
+    {
+      "categorie": "Formations et Diplômes",
+      "questions": [
+        {
+          "keywords": ["filières", "formations", "spécialités", "licence", "master", "bts", "cours"],
+          "reponse": "ESAG-NDE propose des BTS (Bac+2), Licences Professionnelles (Bac+3) et Masters Professionnels (Bac+5) en : Banque-Assurances, Comptabilité, Marketing, RH et Transport Logistique."
+        },
+        {
+          "keywords": ["expertise comptable", "decogef", "descogef", "comptabilité", "uemoa"],
+          "reponse": "L'école est un centre de référence pour l'expertise comptable (UEMOA), offrant le DECOGEF (Bac+3) et le DESCOGEF (Bac+5)."
+        },
+        {
+          "keywords": ["reconnaissance", "cames", "accréditation", "diplôme", "officiel"],
+          "reponse": "Toutes les Licences Professionnelles de l'ESAG-NDE (système LMD) sont reconnues par l'État togolais et accréditées par le CAMES."
+        },
+        {
+          "keywords": ["partenariat", "maroc", "sup mti", "international"],
+          "reponse": "L'école collabore avec le groupe SUP MTI du Maroc et d'autres partenaires pour offrir des doubles diplômes et des certifications internationales."
+        }
+      ]
+    },
+    {
+      "categorie": "Informations Pratiques",
+      "questions": [
+        {
+          "keywords": ["contact", "téléphone", "email", "mail", "appeler", "écrire"],
+          "reponse": "Scolarité : +228 22 21 68 58 ou +228 90 35 60 50. Email : esagnde@esagnde.org."
+        },
+        {
+          "keywords": ["lieu", "adresse", "situer", "ville", "quartier", "siège"],
+          "reponse": "L'ESAG-NDE est située au 52 Bd des Armées (Tokoin Séminaire) à Lomé, et dispose d'un site à Avepozo (Baguida)."
+        },
+        {
+          "keywords": ["horaires", "moment", "soir", "jour", "vacation"],
+          "reponse": "Les cours sont organisés en deux vacations : cours du jour et cours du soir pour s'adapter aux étudiants et aux professionnels."
+        },
+        {
+          "keywords": ["histoire", "mission", "vision", "valeurs", "devise"],
+          "reponse": "Notre devise est 'SINT UT SUNT AUT NON SINT'. L'école vise l'excellence académique alliée à l'expérience de terrain."
+        }
+      ]
+    }
+  ]
+}
