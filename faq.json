@@ -2,18 +2,56 @@
   "etablissement": "ESAG-NDE",
   "faq": [
     {
+      "categorie": "Politesse et Identité",
+      "questions": [
+        {
+          "keywords": ["bonjour", "salut", "hello", "hi", "hey", "bsr", "bjr"],
+          "reponse": "Salut ! Je suis l'assistant virtuel de l'ESAG-NDE. Comment puis-je vous aider aujourd'hui ?"
+        },
+        {
+          "keywords": ["qui", "es-tu", "identite", "nom", "fonctionne"],
+          "reponse": "Je suis un chatbot conçu par Mazou et Latékoué pour vous fournir des informations officielles sur l'ESAG-NDE."
+        }
+      ]
+    },
+    {
       "categorie": "Admissions et Frais",
       "questions": [
         {
-          "keywords": ["frais", "inscription", "coût", "prix", "scolarité", "payer", "argent"],
+          "keywords": [
+            "frais",
+            "inscription",
+            "coût",
+            "prix",
+            "scolarité",
+            "payer",
+            "argent"
+          ],
           "reponse": "Les frais d'inscription s'élèvent à 50 000 FCFA. Pour le cycle d'expertise comptable (DECOGEF), la scolarité est de 1 000 000 FCFA payable en 8 tranches de 125 000 FCFA. Pour les autres filières, veuillez contacter la scolarité."
         },
         {
-          "keywords": ["documents", "pièces", "dossier", "fournir", "inscription", "dépôt"],
+      "keywords": ["condition", "admission", "niveau", "requis", "bac", "diplome", "titulaire", "eligibilite"],
+      "reponse": "L'admission en Licence est ouverte à tous les bacheliers (techniques, scientifiques ou diplôme équivalent) sans distinction de nationalité. Elle se fait uniquement sur étude de dossier."
+    },
+        {
+          "keywords": [
+            "documents",
+            "pièces",
+            "dossier",
+            "fournir",
+            "inscription",
+            "dépôt"
+          ],
           "reponse": "Le dossier doit comprendre : une copie légalisée de l'acte de naissance, une copie légalisée du diplôme (BAC II ou plus), le relevé de notes, 3 à 4 photos d'identité et une enveloppe timbrée."
         },
         {
-          "keywords": ["procédure", "admission", "comment s'inscrire", "entretien", "étude de dossier"],
+          "keywords": [
+            "procédure",
+            "admission",
+            "comment s'inscrire",
+            "entretien",
+            "étude de dossier"
+          ],
           "reponse": "L'admission se fait sur étude de dossier. Pour les cycles DECOGEF/DESCOGEF, un entretien devant une commission pluridisciplinaire d'enseignants est obligatoire après le dépôt."
         }
       ]
@@ -22,15 +60,35 @@
       "categorie": "Formations et Diplômes",
       "questions": [
         {
-          "keywords": ["filières", "formations", "spécialités", "licence", "master", "bts", "cours"],
+          "keywords": [
+            "filières",
+            "formations",
+            "spécialités",
+            "licence",
+            "master",
+            "bts",
+            "cours"
+          ],
           "reponse": "ESAG-NDE propose des BTS (Bac+2), Licences Professionnelles (Bac+3) et Masters Professionnels (Bac+5) en : Banque-Assurances, Comptabilité, Marketing, RH et Transport Logistique."
         },
         {
-          "keywords": ["expertise comptable", "decogef", "descogef", "comptabilité", "uemoa"],
+          "keywords": [
+            "expertise comptable",
+            "decogef",
+            "descogef",
+            "comptabilité",
+            "uemoa"
+          ],
           "reponse": "L'école est un centre de référence pour l'expertise comptable (UEMOA), offrant le DECOGEF (Bac+3) et le DESCOGEF (Bac+5)."
         },
         {
-          "keywords": ["reconnaissance", "cames", "accréditation", "diplôme", "officiel"],
+          "keywords": [
+            "reconnaissance",
+            "cames",
+            "accréditation",
+            "diplôme",
+            "officiel"
+          ],
           "reponse": "Toutes les Licences Professionnelles de l'ESAG-NDE (système LMD) sont reconnues par l'État togolais et accréditées par le CAMES."
         },
         {
@@ -40,14 +98,85 @@
       ]
     },
     {
+      "categorie": "Parcours BTS (BAC+2)",
+      "questions": [
+        {
+          "keywords": ["bts", "bac+2", "technicien", "pme", "secretariat", "informatique", "reseaux", "force de vente"],
+          "reponse": "Le BTS (BAC+2) est accessible après tout BAC. Nous offrons 10 filières : Gestion PME/PMI, Comptabilité, Secrétariat (Direction/Commercial), Finance Banque, Réseaux Informatiques, Développement d'Applications, Action Commerciale, Commerce International et Communication."
+        }
+      ]
+    },
+    {
+      "categorie": "Parcours Licence (BAC+3)",
+      "questions": [
+        {
+          "keywords": ["licence", "bac+3", "cames", "cca", "bfa", "mge", "logistique", "rh", "droit des affaires"],
+          "reponse": "Nos Licences (BAC+3) sont accréditées par le CAMES. Spécialités : CCA, Banque-Finance, Management, Projets, Marketing, Transport-Logistique, RH, Secrétariat, Économie, Droit des Affaires. Nous avons aussi des diplômes délocalisés avec SUP MTI (Maroc) et Médicis (Paris)."
+        }
+      ]
+    },
+    {
+      "categorie": "Parcours Master (BAC+5)",
+      "questions": [
+        {
+          "keywords": ["master", "bac+5", "soir", "professionnel", "expertise", "decentralisation", "ntic"],
+          "reponse": "Le Master dure 2 ans après une Licence. Les cours ont lieu le soir (18h30-21h30). Nous proposons 10 filières en Gestion (Banque, Audit, Logistique, RH, Projets) et en Aménagement du territoire (Décentralisation, Économie, NTIC, Intelligence Économique)."
+        },
+        {
+          "keywords": ["contact", "master", "droit des affaires", "telephone"],
+          "reponse": "Pour le Master, contactez le 22 21 68 58. Pour le Master Droit des Affaires spécifiquement, appelez le 90 22 50 50."
+        }
+      ]
+    },
+    {
+      "categorie": "Expertise Comptable (UEMOA)",
+      "questions": [
+        {
+          "keywords": ["expertise", "comptable", "decogef", "descogef", "decofi", "uemoa", "expert"],
+          "reponse": "Le cursus DECOFI comprend : 1. DECOGEF (3 ans après BAC), 2. DESCOGEF (2 ans après Licence), 3. Stage de 3 ans, 4. Diplôme d'Expertise Comptable final."
+        },
+        {
+          "keywords": ["prix", "scolarite", "decogef", "tranches"],
+          "reponse": "DECOGEF : Inscription 50 000 FCFA + Scolarité 1 000 000 FCFA (8 tranches de 125 000 FCFA). L'école prend en charge les frais d'examen (280 000 FCFA)."
+        },
+        {
+          "keywords": ["admission", "descogef", "equivalence", "cames", "entretien"],
+          "reponse": "Pour le DESCOGEF, l'admission se fait sur dossier + entretien. Il faut une maîtrise (MSTCF), un DESS ou un diplôme équivalent reconnu par le CAMES."
+        }
+      ]
+    },
+    {
+      "categorie": "Certificats Professionnels",
+      "questions": [
+        {
+          "keywords": ["certificat", "formation", "courte", "anglais", "francais", "entrepreneuriat", "diplomatie"],
+          "reponse": "Nous offrons des certificats en : Entrepreneuriat, Informatique, Protocole & Diplomatie, et Langues (Anglais/Français langue étrangère)."
+        }
+      ]
+    },
+    {
       "categorie": "Informations Pratiques",
       "questions": [
         {
-          "keywords": ["contact", "téléphone", "email", "mail", "appeler", "écrire"],
+          "keywords": [
+            "contact",
+            "téléphone",
+            "email",
+            "mail",
+            "appeler",
+            "écrire"
+          ],
           "reponse": "Scolarité : +228 22 21 68 58 ou +228 90 35 60 50. Email : esagnde@esagnde.org."
         },
         {
-          "keywords": ["lieu", "adresse", "situer", "ville", "quartier", "siège"],
+          "keywords": [
+            "lieu",
+            "adresse",
+            "situer",
+            "ville",
+            "quartier",
+            "siège"
+          ],
           "reponse": "L'ESAG-NDE est située au 52 Bd des Armées (Tokoin Séminaire) à Lomé, et dispose d'un site à Avepozo (Baguida)."
         },
         {
@@ -59,6 +188,27 @@
           "reponse": "Notre devise est 'SINT UT SUNT AUT NON SINT'. L'école vise l'excellence académique alliée à l'expérience de terrain."
         }
       ]
+    },
+    {
+  "categorie": "Présentation et Gouvernance",
+  "questions": [
+    {
+      "keywords": ["presentation", "historique", "creation", "origine", "soeurs", "congregation", "qui a cree"],
+      "reponse": "L'ESAG-NDE a été créée le 31 août 2000 par les Religieuses de l'Institut des Sœurs de Notre Dame de l'Église. Elle forme depuis plus de 20 ans des managers et cadres compétents au Togo."
+    },
+    {
+      "keywords": ["mission", "vision", "valeurs", "objectif", "devise", "excellence"],
+      "reponse": "Notre mission est d'offrir une formation intégrale (savoir, savoir-faire, savoir-être). Notre vision : atteindre l'excellence totale d'ici 2030. Nos valeurs clés sont le respect de la dignité humaine, la solidarité et le développement intégral."
+    },
+    {
+      "keywords": ["agrement", "arrete", "officiel", "etat", "autorise", "reconnaissance", "cames"],
+      "reponse": "L'ESAG-NDE est un établissement confessionnel agréé par l'État Togolais. C'est la première école au Togo à avoir accrédité TOUTES ses licences professionnelles ainsi que ses Masters auprès du CAMES."
+    },
+    {
+      "keywords": ["directrice", "dg", "responsable", "gouvernance", "direction", "conseil", "soeur louise"],
+      "reponse": "L'école est dirigée par Sœur Docteur Louise de Jésus ASSIVON (Directrice Générale). La gouvernance s'appuie sur un Conseil Supérieur (politique), un Conseil Scientifique (recherche) et un Comité de Direction."
     }
+  ]
+}
   ]
 }

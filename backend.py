@@ -1,4 +1,5 @@
 import json
+import random
 import os
 from difflib import SequenceMatcher # Utilisé pour comparer la ressemblance entre deux mots
 
@@ -80,3 +81,20 @@ def chercher_reponse(question_utilisateur, base_faq):
         return meilleure_reponse
     
     return "Désolé, je ne trouve pas d'information précise. Essayez avec des mots simples comme 'scolarité', 'CAMES' ou 'inscription'."
+
+def generer_suggestions_contextuelles(reponse_donnee, base_faq):
+    """
+    Analyse la réponse pour proposer 2 questions logiquement liées.
+    """
+    suggestions_par_defaut = ["Quelles sont les filières ?", "Contact de la scolarité", "Où se situe l'école ?"]
+    
+    # Logique simple : si la réponse parle de 'frais', suggérer 'documents'
+    if "frais" in reponse_donnee.lower() or "paye" in reponse_donnee.lower():
+        return ["Quels sont les documents à fournir ?", "Comment se passe l'inscription ?"]
+    
+    # Si la réponse parle de 'filières' ou 'formations'
+    if "licence" in reponse_donnee.lower() or "master" in reponse_donnee.lower():
+        return ["Quels sont les frais de scolarité ?", "Est-ce reconnu par le CAMES ?"]
+
+    # Sinon, on donne des suggestions aléatoires par défaut
+    return random.sample(suggestions_par_defaut, 2)

@@ -1,36 +1,33 @@
-# On importe les fonctions logiques depuis notre fichier backend.py
-from backend import charger_faq, chercher_reponse
+from backend import charger_faq, chercher_reponse, generer_suggestions_contextuelles
 
 def lancer_test():
-    """
-    Script de test interactif en console. 
-    Permet de valider le moteur de recherche sans lancer l'interface Tkinter.
-    """
-    # Initialisation : chargement de la base JSON
     base = charger_faq()
-    
     if base is None:
-        print("ERREUR : Assurez-vous que le fichier 'faq.json' est dans le même dossier.")
+        print("Erreur : fichier faq.json introuvable.")
         return
 
-    print("=== TEST DU MOTEUR CHATBOT ESAG-NDE ===")
-    print("Instructions : Tapez votre question. Tapez 'quitter' pour sortir.\n")
-
+    print("===========================================")
+    print("   TEST DU CHATBOT ESAG-NDE (V2 - PRO)    ")
+    print("===========================================")
+    print("Instructions : Posez votre question ou tapez 'quitter'.")
+    
     while True:
-        # Récupération de la saisie utilisateur
+        print("\n" + "-"*40)
         phrase = input("Vous : ")
         
-        # Condition de sortie
         if phrase.lower() == "quitter":
-            print("Fin du test. Prêt pour l'étape suivante !")
+            print("Fin du test. À bientôt !")
             break
             
-        # Appel du cerveau du bot (le backend)
+        # 1. Recherche de la réponse
         reponse = chercher_reponse(phrase, base)
+        print(f"\nBot : {reponse}")
         
-        # Affichage du résultat
-        print(f"Bot : {reponse}\n")
+        # 2. Génération et affichage des suggestions intelligentes
+        suggestions = generer_suggestions_contextuelles(reponse, base)
+        print("\n[Suggestions d'aide] :")
+        for i, s in enumerate(suggestions, 1):
+            print(f"  {i}. {s}")
 
-# Point d'entrée du script
 if __name__ == "__main__":
     lancer_test()
